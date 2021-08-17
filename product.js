@@ -9,7 +9,7 @@ function cargarDatos(productos_URL){
             for(let i=0; i <product.length; i++){
 
                 row = 
-                <tr></tr>
+                <tr>
                 `
                 <td>` + product[i].name + `</td>
                 <td>` + product[i].description + `</td>
