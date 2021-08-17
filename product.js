@@ -9,7 +9,7 @@ function cargarDatos(productos_URL){
             for(let i=0; i <product.length; i++){
 
                 row = 
-                <tr>
+                 
                 `
                 <td>` + product[i].name + `</td>
                 <td>` + product[i].description + `</td>
@@ -18,7 +18,7 @@ function cargarDatos(productos_URL){
                 <td>` + product[i].imgSrc + `</td>
                 </tr>
                 
-                `;
+                `
                   document.getElementById("data").innerHTML += row;
     
             }
