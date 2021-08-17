@@ -9,13 +9,14 @@ function cargarDatos(productos_URL){
             for(let i=0; i <product.length; i++){
 
                 row = 
+                <tr></tr>
                 `
-                <td>` + product[i].namee + `</td>
+                <td>` + product[i].name + `</td>
                 <td>` + product[i].description + `</td>
                 <td>` + product[i].cost + `</td>
                 <td>` + product[i].currency + `</td>
                 <td>` + product[i].imgSrc + `</td>
-                
+                </tr>
                 
                 `;
                   document.getElementById("data").innerHTML += row;
