@@ -10,7 +10,7 @@ function cargarDatos(productos_URL){
 
                 row = 
                 `
-                <td>` + product[i].name + `</td>
+                <td>` + product[i].namee + `</td>
                 <td>` + product[i].description + `</td>
                 <td>` + product[i].cost + `</td>
                 <td>` + product[i].currency + `</td>
