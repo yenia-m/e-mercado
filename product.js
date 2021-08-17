@@ -1,4 +1,4 @@
-const productos_URL = "https://japdevdep.github.io/ecommerce-api/product/5678.json";
+const productos_URL = "https://japdevdep.github.io/ecommerce-api/product/all.json";
 
 function cargarDatos(productos_URL){
     document.getElementById("data").innerHTML="";
@@ -14,6 +14,8 @@ function cargarDatos(productos_URL){
                 <td>` + product[i].description + `</td>
                 <td>` + product[i].cost + `</td>
                 <td>` + product[i].currency + `</td>
+                <td>` + product[i].imgSrc + `</td>
+                
                 
                 `;
                   document.getElementById("data").innerHTML += row;
